@@ -1,3 +1,5 @@
+//= require helpers/angular_helpers
+
 describe("MainController", function() {
   var $scope, $controller, self;
 
