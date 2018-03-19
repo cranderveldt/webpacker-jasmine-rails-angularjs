@@ -1,5 +1,12 @@
 {
   "name": "webpack-jasmine-test",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "@rails/webpacker": "^3.3.1",
+    "angular": "^1.6.9",
+    "angular-mocks": "^1.6.9"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "2.11.2"
+  }
 }
