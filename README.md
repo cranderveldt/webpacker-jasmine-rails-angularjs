@@ -1,24 +1,9 @@
-# README
+# Webpack / Jasmine-Rails / AngularJS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This branch only uses webpacker: 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+$ RAILS_ENV=test bundle exec rake spec:javascript
+...
+ERROR: TypeError: Attempted to assign to readonly property.
+```
